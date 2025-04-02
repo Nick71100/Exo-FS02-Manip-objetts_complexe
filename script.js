@@ -50,4 +50,4 @@ const bestStudent = classroom.students.reduce((best, student) => {
   return best;
 }, null);
 
-console.log(bestStudent);
+console.log(bestStudent.name);
